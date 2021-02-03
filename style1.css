@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    font-family:'Potta one';
+    ALIGN-ITEMS: CENTER;
+    font-size: 50px;
+}
+.navbar{
+    background-color: rgb(176, 235, 196);
+    width: 100%;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+}
+
+.inav {
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.ibtn {
+    font-size: medium;
+}
+
+.navbar img {
+    height: 202px;
+}
+
+div#video_player_box{  
+    background:#000; 
+    overflow:hidden
+}
+
+div#video_controls_bar{ 
+    background:grey; 
+    padding:10px; 
+    color:#CCC;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(100%) translateY(-5px);
+}
+#video_player_box:hover #video_controls_bar {
+    transform: translateY(0);
+}
+
+input#seekslider{ 
+    width:100%; 
+    transform: translateY(100%) translateY(-5px);
+}
+input#volumeslider{ 
+    width: 80px;
+}
+input[type='range'] {
+    -webkit-appearance: none !important;
+    background: rgb(212, 212, 212);
+	border:#666 1px solid;
+    height:4px;
+}
+input[type='range']::-webkit-slider-thumb {
+    -webkit-appearance: none !important;
+    background: #FFF;
+    height:15px;
+    width:15px;
+	border-radius:100%;
+	cursor:pointer;
+}
+button#playpausebtn{
+	border:none;
+	width:25px;
+	height:22px;
+    cursor:pointer;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+button#playpausebtn:hover{ 
+    opacity:2;
+ }
+
+input#volumeslider{
+     width: 80px;
+    }
+input[type='range'] {
+    -webkit-appearance: none !important;
+    background: #000;
+	border:#666 1px solid;
+    height:4px;
+}
+
+.footer {
+    background-color: rgb(176, 235, 196);
+    width: 100%;
+    height: 223px;
+}
+
+#curtimetext {
+    font-family: 'Potta one';
+}
+#durtimetext {
+    font-family: 'Potta one';
+}
